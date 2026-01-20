@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background: #0f0f10;
+  color: white;
+  font-family: sans-serif;
+}
+
+.reviews {
+  padding: 40px;
+}
+
+.carousel {
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+}
+
+.card {
+  width: 360px;
+  background: #1c1c1e;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 16px;
+}
+
+.stars {
+  color: gold;
+}

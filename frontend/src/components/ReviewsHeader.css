@@ -1,0 +1,415 @@
+.reviews-header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.reviews-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 40px;
+  line-height: 1.1;
+}
+
+.reviews-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.reviews-info__left {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #424245;
+  text-align: center;
+  order: 1;
+}
+
+.reviews-info__center {
+  order: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-info__right {
+  order: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.featured-app {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #f8f9ff 0%, #f0f2ff 100%);
+  padding: 16px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 122, 255, 0.1);
+}
+
+.featured-laurel {
+  width: 32px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.featured-app-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.featured-app-content strong {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1d1d1f;
+  white-space: nowrap;
+}
+
+.featured-app-content span {
+  font-size: 14px;
+  color: #86868b;
+  letter-spacing: 0.5px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #fff8f8 0%, #fff0f0 100%);
+  padding: 16px 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 59, 48, 0.1);
+}
+
+.rating-bars {
+  width: 100px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.rating-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-score strong {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1d1d1f;
+  line-height: 1;
+}
+
+.rating-score span {
+  font-size: 14px;
+  color: #86868b;
+  margin-top: 4px;
+}
+
+/* Tablet Styles (768px - 1023px) */
+@media (min-width: 768px) {
+  .reviews-header {
+    padding: 0 40px;
+  }
+
+  .reviews-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .reviews-info__left {
+    order: 1;
+    flex: 1 1 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .reviews-info__center {
+    order: 2;
+    flex: 0 0 auto;
+  }
+
+  .reviews-info__right {
+    order: 3;
+    flex: 0 0 auto;
+  }
+
+  .featured-app {
+    padding: 12px 20px;
+    gap: 10px;
+  }
+
+  .featured-laurel {
+    width: 28px;
+    height: 35px;
+  }
+
+  .featured-app-content strong {
+    font-size: 18px;
+  }
+
+  .rating-container {
+    padding: 12px 20px;
+    gap: 14px;
+  }
+
+  .rating-bars {
+    width: 90px;
+    height: 36px;
+  }
+
+  .rating-score strong {
+    font-size: 32px;
+  }
+}
+
+/* Desktop Styles (1024px and above) */
+@media (min-width: 1024px) {
+  .reviews-header {
+    padding: 0 60px;
+  }
+
+  .reviews-title {
+    font-size: 48px;
+    margin-bottom: 48px;
+  }
+
+  .reviews-info {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .reviews-info__left {
+    order: 1;
+    flex: 1;
+    text-align: left;
+    font-size: 18px;
+    max-width: 300px;
+  }
+
+  .reviews-info__center {
+    order: 2;
+    flex: 0 0 auto;
+  }
+
+  .reviews-info__right {
+    order: 3;
+    flex: 0 0 auto;
+  }
+
+  .featured-app {
+    padding: 16px 24px;
+    gap: 12px;
+  }
+
+  .featured-laurel {
+    width: 32px;
+    height: 40px;
+  }
+
+  .featured-app-content strong {
+    font-size: 20px;
+  }
+
+  .rating-container {
+    padding: 16px 24px;
+    gap: 16px;
+  }
+
+  .rating-bars {
+    width: 100px;
+    height: 40px;
+  }
+
+  .rating-score strong {
+    font-size: 36px;
+  }
+}
+
+/* Large Desktop (1440px and above) */
+@media (min-width: 1440px) {
+  .reviews-header {
+    max-width: 1400px;
+  }
+
+  .reviews-title {
+    font-size: 56px;
+    margin-bottom: 56px;
+  }
+
+  .reviews-info__left {
+    font-size: 20px;
+    max-width: 400px;
+  }
+
+  .featured-app {
+    padding: 20px 32px;
+    gap: 16px;
+  }
+
+  .featured-laurel {
+    width: 36px;
+    height: 45px;
+  }
+
+  .featured-app-content strong {
+    font-size: 22px;
+  }
+
+  .featured-app-content span {
+    font-size: 15px;
+  }
+
+  .rating-container {
+    padding: 20px 32px;
+  }
+
+  .rating-bars {
+    width: 120px;
+    height: 48px;
+  }
+
+  .rating-score strong {
+    font-size: 40px;
+  }
+
+  .rating-score span {
+    font-size: 15px;
+  }
+}
+
+/* Mobile Styles (max-width: 767px) */
+@media (max-width: 767px) {
+  .reviews-header {
+    padding: 0 16px;
+  }
+
+  .reviews-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .reviews-info {
+    gap: 24px;
+  }
+
+  .featured-app {
+    padding: 14px 20px;
+    gap: 10px;
+  }
+
+  .featured-laurel {
+    width: 24px;
+    height: 30px;
+  }
+
+  .featured-app-content strong {
+    font-size: 16px;
+  }
+
+  .featured-app-content span {
+    font-size: 12px;
+  }
+
+  .rating-container {
+    padding: 14px 20px;
+    gap: 12px;
+  }
+
+  .rating-bars {
+    width: 80px;
+    height: 32px;
+  }
+
+  .rating-score strong {
+    font-size: 28px;
+  }
+
+  .rating-score span {
+    font-size: 12px;
+  }
+}
+
+/* Small Mobile (max-width: 374px) */
+@media (max-width: 374px) {
+  .reviews-title {
+    font-size: 28px;
+  }
+
+  .featured-app {
+    padding: 12px 16px;
+    gap: 8px;
+  }
+
+  .featured-laurel {
+    width: 20px;
+    height: 25px;
+  }
+
+  .featured-app-content strong {
+    font-size: 14px;
+  }
+
+  .rating-container {
+    padding: 12px 16px;
+    gap: 10px;
+  }
+
+  .rating-bars {
+    width: 70px;
+    height: 28px;
+  }
+
+  .rating-score strong {
+    font-size: 24px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .reviews-title {
+    color: #ffffff;
+  }
+
+  .reviews-info__left {
+    color: #aeaeb2;
+  }
+
+  .featured-app {
+    background: linear-gradient(135deg, #2c2c2e 0%, #3a3a3c 100%);
+    border-color: rgba(0, 122, 255, 0.2);
+  }
+
+  .featured-app-content strong {
+    color: #ffffff;
+  }
+
+  .featured-app-content span {
+    color: #aeaeb2;
+  }
+
+  .rating-container {
+    background: linear-gradient(135deg, #2c2c2e 0%, #3a3a3c 100%);
+    border-color: rgba(255, 59, 48, 0.2);
+  }
+
+  .rating-score strong {
+    color: #ffffff;
+  }
+
+  .rating-score span {
+    color: #aeaeb2;
+  }
+}

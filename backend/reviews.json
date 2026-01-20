@@ -1,0 +1,64 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 5,
+      "title": "Exactly what I was looking for!",
+      "text": "This app has completely transformed my daily workflow. The interface is clean and intuitive, and I was able to get started within minutes. Highly recommend to anyone looking for a reliable solution."
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "title": "Simple, fast, and reliable",
+      "text": "I've tried many similar apps before, but this one stands out. It's lightweight, doesn't drain my battery, and just works. The developers clearly put a lot of thought into the user experience."
+    },
+    {
+      "id": 3,
+      "rating": 5,
+      "title": "A must-have app",
+      "text": "Beautiful design and flawless functionality. I use it every single day and it has never let me down. The recent updates made it even better. Worth every penny!"
+    },
+    {
+      "id": 4,
+      "rating": 5,
+      "title": "Exceeded my expectations",
+      "text": "I was skeptical at first, but this app blew me away. It's so easy to use and the features are exactly what I needed. Customer support is also fantastic and very responsive."
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "title": "Life-changing experience",
+      "text": "No exaggeration — this app has saved me hours every week. The learning curve is minimal and the results are impressive. I've already recommended it to all my colleagues."
+    },
+    {
+      "id": 6,
+      "rating": 5,
+      "title": "Best in its category",
+      "text": "After testing dozens of alternatives, I can confidently say this is the best option available. Clean interface, powerful features, and regular updates. The team behind this really cares."
+    },
+    {
+      "id": 7,
+      "rating": 5,
+      "title": "So glad I found this",
+      "text": "This app does exactly what it promises and more. Setup took less than a minute and everything works smoothly. It's rare to find software that's both powerful and user-friendly."
+    },
+    {
+      "id": 8,
+      "rating": 5,
+      "title": "Impressive quality",
+      "text": "The attention to detail in this app is remarkable. Every feature feels polished and well thought out. Performance is excellent even with heavy usage. Absolutely love it!"
+    },
+    {
+      "id": 9,
+      "rating": 5,
+      "title": "Worth every star",
+      "text": "I rely on this app daily for my business operations. It's stable, secure, and constantly improving. The value it provides is incredible. Thank you to the amazing dev team!"
+    },
+    {
+      "id": 10,
+      "rating": 5,
+      "title": "Finally, an app that works",
+      "text": "As a student on a budget, I appreciate quality free apps. This one delivers exceptional value without annoying ads or paywalls. Fast, efficient, and genuinely helpful."
+    }
+  ]
+}
