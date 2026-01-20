@@ -1,4 +1,4 @@
-Review Carousel Application
+# Review Carousel Application
 Блок отзывов с фронтендом на React и бэкендом на FastAPI.
 
 🐳 Быстрый запуск через Docker
@@ -9,9 +9,12 @@ Review Carousel Application
 Запуск за 3 шага
 
 Создайте файл docker-compose.yml:
-bash
+```
 mkdir review-carousel && cd review-carousel
 cat > docker-compose.yml << 'EOF'
+```
+В файл docker-compose.yml добавляем код ниже
+```
 version: "3.9"
 
 services:
@@ -32,10 +35,11 @@ services:
     environment:
       - VITE_API_URL=http://backend:8000
     restart: unless-stopped
-EOF
+```
 Запустите приложение:
-bash
+```
 docker-compose up -d
-Откройте в браузере:
+```
+Для проверки откройте в браузере:
 Фронтенд: http://localhost:5173
 Бэкенд (документация API): http://localhost:8000/docs
